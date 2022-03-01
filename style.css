@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 
 body {
+    color: mintcream;
     font-family: "Muli", sans-serif;
     display: flex;
     align-items: center;
@@ -47,6 +48,7 @@ body {
 
 .panel.active h3{
     opacity: 1;
+    transition: opacity 0.3s ease-in;
 }
 
 @media(max-width:  480px)
